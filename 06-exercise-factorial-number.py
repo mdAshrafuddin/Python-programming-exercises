@@ -3,7 +3,7 @@ Python Program for factorial of a number
 """
 # Recursive
 def factorial(n):
-    return 1 if(n == 1 or n == 0) else (n * factorial(n - 1))
+    return 1 if(n == 1 or n == 0) else (n * (n - 1))
 
 num = 5
 
@@ -32,3 +32,12 @@ def factorial2(n2):
 
 num2 = 5
 print('Factorial of {0} is {1} '.format(num2, factorial2(num2)))
+
+# Factorial another way
+n = int(input("Enter The number "))
+sum =1 
+
+for i in range(1, n+1):
+    sum = sum * i
+
+print(sum)

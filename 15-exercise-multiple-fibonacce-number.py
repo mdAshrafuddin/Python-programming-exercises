@@ -8,15 +8,16 @@ def mulFibo(k, n):
         c = a + b
         a = b
         b = c
-
+        # print(b)
         if b % k == 0:
             return n * i
         
         i +=1
+        print(i)
     return 
-    
-n = 5
+  
+n = 9
 
-k = 4
+k = 6
 
 print(mulFibo(k, n))

@@ -22,3 +22,12 @@ rate = int(input('Enter the rate of interest '))
 time = int(input('Enter the numbr of years '))
 
 compound_interest(principle, rate, time)
+
+
+p = 1000
+r = 100
+t = 2
+
+com = p * (pow((1 + r / 100), t))
+
+print(com)
